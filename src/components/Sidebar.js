@@ -67,7 +67,7 @@ const SidebarContainer = styled.div`
     cursor: pointer;
     color: var(--clr-red-dark);
     margin-top: 0.2rem;
-    margin-right: 0.2rem;
+    margin-right: 0.6rem;
   }
   .close-btn:hover {
     color: var(--clr-red-light);

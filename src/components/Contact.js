@@ -19,7 +19,7 @@ const Contact = () => {
               placeholder="enter email"
             />
             <button type="submit" className="submit-btn">
-              subscribe
+              signup
             </button>
           </form>
         </div>
@@ -38,8 +38,8 @@ const Wrapper = styled.section`
     color: var(--clr-grey-5);
   }
   .contact-form {
-    width: 90vw;
-    max-width: 500px;
+    width: 80vw;
+    max-width: 400px;
     display: grid;
     grid-template-columns: 1fr auto;
   }
@@ -80,7 +80,7 @@ const Wrapper = styled.section`
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      gap: 8rem;
+      gap: 6rem;
       margin-top: 2rem;
     }
     p {
