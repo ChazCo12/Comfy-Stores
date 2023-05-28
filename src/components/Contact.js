@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -19,7 +20,7 @@ const Contact = () => {
               placeholder="enter email"
             />
             <button type="submit" className="submit-btn">
-              signup
+              <FaEnvelope className="icon" />
             </button>
           </form>
         </div>
@@ -74,6 +75,10 @@ const Wrapper = styled.section`
   }
   .submit-btn:hover {
     color: var(--clr-white);
+  }
+  .icon {
+    margin-top: 0.2rem;
+    font-size: 1rem;
   }
   @media (min-width: 992px) {
     .content {
